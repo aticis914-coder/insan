@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İnsanlara Kendini Tanıt</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <h2>İnsanlarla tanışmaya hoşgeldiniz!</h2>
+  <nav>
+    <ul>
+      <li><a href="www.insanlarakendinitanit.com">Ana Sayfa</a></li>
+      <li><a href="www.insanlarakendinitanit.com">Üye ol/Giriş Yap</a></li>
+      <li><a href="www.insanlarakendinitanit.com">Tanışmaya Başla</a></li>
+    </ul>
+    </nav>
+   </header>
+
+ <main>    
+    <section class="hero">
+    <h4>Tanışmaya Hazırlan</h4>
+     <p>Bu sayfa HTML ve CSS ile oluşturulmuştur.</p>
+   </section>
+   <section class="features">
+   <form action="/register" method="post">
+        <label for="username">Kullanıcı Adı:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Kayıt Ol</button>
+      </form>
+
+      <form action="/login" method="post">
+        <label for="login-username">Kullanıcı Adı:</label>
+        <input type="text" id="login-username" name="username" required>
+
+        <label for="login-password">Şifre:</label>
+        <input type="password" id="login-password" name="password" required>
+
+        <button type="submit">Giriş Yap</button>
+     <div class="feature-box">
+     <h3>Hızlı Davran</h3>
+     <p>Sayfa yükleme süresi optimize edilmiştir.</p>
+    </div>
+    <div class="feature-box">
+    <h3>Teknolojinin Gücüyle Tanış</h3>
+    <p>Responsive ve estetik tasarım.</p>
+   </div>
+  </section>
+  </main>
+
+  <footer>
+    <p>&copy; İnsanlara kendini Tanııt</p>
+  </footer>
+  </body>
+  </html>
+  <!-- index.html içinde <main> veya <header> bölümüne ekleyebilirsin -->
+<button onclick="toggleTheme()">Temayı Değiştir</button>
+
